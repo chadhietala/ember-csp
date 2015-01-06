@@ -1,6 +1,6 @@
 # Ember-csp
 
-This README outlines the details of collaborating on this Ember addon.
+This is expiremental to see how Ember could use CSP/go like semantics.
 
 ## Installation
 
