@@ -4,6 +4,7 @@
     "window",
     "-Promise"
   ],
+  "esnext": true,
   "browser": true,
   "boss": true,
   "curly": true,

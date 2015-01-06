@@ -3,7 +3,7 @@ export function DroppingBuffer (buf, n) {
   this.n = n;
 }
 
-DroppingBuffer.prototype = {
+DroppingBuffer.prototype = Object.create({
   get full () {
     return false;
   },
@@ -18,4 +18,4 @@ DroppingBuffer.prototype = {
   get count () {
     return this.buf.length;
   } 
-};
+});

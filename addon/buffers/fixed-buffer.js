@@ -3,7 +3,7 @@ export function FixedBuffer (buf, n) {
   this.n = n;
 }
 
-FixedBuffer.prototype = {
+FixedBuffer.prototype = Object.create({
   get full () {
     return this.buf.length > this.n;
   },
@@ -16,4 +16,4 @@ FixedBuffer.prototype = {
   get count () {
     return this.buf.length;
   } 
-};
+});

@@ -1,4 +1,5 @@
-import {EMPTY, acopy} from '../utils/index';
+import EMPTY from '../utils/empty';
+import acopy from '../utils/acopy';
 
 export function RingBuffer(head, tail, length, array) {
     this.head = head;
